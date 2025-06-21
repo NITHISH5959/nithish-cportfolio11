@@ -1,5 +1,5 @@
 
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ContactSection = () => {
@@ -27,7 +27,12 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">hello@nithishkp.com</p>
+                    <a 
+                      href="mailto:nithishdsgn@gmail.com"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      nithishdsgn@gmail.com
+                    </a>
                   </div>
                 </div>
 
@@ -37,7 +42,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+91 12345 67890</p>
+                    <p className="text-muted-foreground">+91 94893 41555</p>
                   </div>
                 </div>
 
@@ -47,7 +52,24 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">India</p>
+                    <p className="text-muted-foreground">Hosur, Tamil Nadu, India</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="p-3 bg-primary/10 rounded-lg">
+                    <Linkedin size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-medium">LinkedIn</p>
+                    <a 
+                      href="https://www.linkedin.com/in/nithish-purushothaman-0a147a28a"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      Connect with me
+                    </a>
                   </div>
                 </div>
               </div>
