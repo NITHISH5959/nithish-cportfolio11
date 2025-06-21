@@ -18,6 +18,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Works', href: '#works' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -28,7 +29,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-xl font-bold tracking-tight">
-            Nithish K P
+            Nithish Purushothaman
           </a>
 
           {/* Desktop Navigation */}

@@ -1,4 +1,4 @@
-import { ArrowDown } from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -47,25 +47,15 @@ const HeroSection = () => {
                   solutions that drive business growth.
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6">
+                <div className="flex justify-center lg:justify-start pt-6">
                   <Button size="lg" className="text-base px-8 py-3">
                     <a href="#contact" className="flex items-center">
                       Get In Touch
                     </a>
                   </Button>
-                  <Button variant="outline" size="lg" className="text-base px-8 py-3">
-                    <a href="#about" className="flex items-center">
-                      Learn More
-                    </a>
-                  </Button>
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Scroll indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ArrowDown size={24} className="text-muted-foreground" />
           </div>
         </div>
       </div>
