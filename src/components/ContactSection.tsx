@@ -1,5 +1,5 @@
 
-import { Mail, MapPin, Phone, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Phone, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ContactSection = () => {
@@ -58,17 +58,17 @@ const ContactSection = () => {
 
                 <div className="flex items-center space-x-4">
                   <div className="p-3 bg-primary/10 rounded-lg">
-                    <Linkedin size={20} className="text-primary" />
+                    <Instagram size={20} className="text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">LinkedIn</p>
+                    <p className="font-medium">Instagram</p>
                     <a 
-                      href="https://www.linkedin.com/in/nithish-purushothaman-0a147a28a"
+                      href="https://www.instagram.com/nithish_purushothaman?igsh=MW0xeDgzaHNncno5eA=="
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      Connect with me
+                      Follow me on Instagram
                     </a>
                   </div>
                 </div>

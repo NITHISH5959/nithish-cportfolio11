@@ -1,4 +1,3 @@
-
 import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -11,15 +10,13 @@ const HeroSection = () => {
             {/* Profile Picture Section */}
             <div className="order-2 lg:order-1 flex justify-center">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/20 flex items-center justify-center">
-                  {/* Placeholder for profile picture */}
-                  <div className="w-72 h-72 rounded-full bg-muted/50 flex items-center justify-center">
-                    <span className="text-6xl text-muted-foreground">NKP</span>
-                  </div>
+                <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f350d624-03ea-4946-bff0-f65c381f3e2a.png" 
+                    alt="Nithish K P Profile Picture"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
-                {/* Floating elements for visual interest */}
-                <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary/20 rounded-full animate-float"></div>
-                <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-primary/30 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
               </div>
             </div>
 
