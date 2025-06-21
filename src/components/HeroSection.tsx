@@ -8,15 +8,27 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Profile Picture Section */}
-            <div className="order-2 lg:order-1 flex justify-center">
-              <div className="relative">
-                <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+            <div className="order-2 lg:order-1 flex flex-col items-center">
+              <div className="relative mb-6">
+                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                   <img 
                     src="/lovable-uploads/f350d624-03ea-4946-bff0-f65c381f3e2a.png" 
-                    alt="Nithish K P Profile Picture"
-                    className="w-full h-full object-cover rounded-full"
+                    alt="Nithish Purushothaman Profile Picture"
+                    className="w-full h-full object-cover"
                   />
                 </div>
+              </div>
+              
+              {/* Glossy Name Below Profile Picture */}
+              <div className="text-center">
+                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent relative">
+                  <span className="relative inline-block">
+                    Nithish Purushothaman
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-white/40 to-white/20 bg-clip-text text-transparent transform -skew-x-12 opacity-60"></div>
+                    <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/30 to-transparent rounded-lg blur-sm"></div>
+                  </span>
+                </h2>
+                <div className="mt-2 h-1 w-32 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
               </div>
             </div>
 
