@@ -1,5 +1,3 @@
-
-
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -20,21 +18,12 @@ const HeroSection = () => {
                 </div>
               </div>
               
-              {/* Glossy Name Below Profile Picture with Spotlight Effect */}
-              <div className="text-center relative">
-                {/* Spotlight background effect */}
-                <div className="absolute inset-0 -m-8 bg-gradient-radial from-primary/20 via-primary/10 to-transparent rounded-full blur-xl"></div>
-                
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground relative mb-2 z-10">
-                  <span className="relative inline-block bg-gradient-to-r from-primary via-foreground to-primary bg-clip-text text-transparent animate-pulse">
-                    Nithish Purushothaman
-                    {/* Enhanced glossy overlay with spotlight */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/80 to-white/40 bg-clip-text text-transparent transform -skew-x-6 opacity-60 dark:from-white/30 dark:via-white/60 dark:to-white/30 animate-float"></div>
-                    {/* Spotlight beam effect */}
-                    <div className="absolute -inset-2 bg-gradient-conic from-primary/30 via-transparent to-primary/30 rounded-full blur-sm opacity-70 animate-spin" style={{animationDuration: '8s'}}></div>
-                  </span>
+              {/* Simple Name Below Profile Picture */}
+              <div className="text-center">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground dark:text-white relative mb-2">
+                  Nithish Purushothaman
                 </h2>
-                <div className="h-0.5 w-24 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent rounded-full relative z-10"></div>
+                <div className="h-0.5 w-24 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
               </div>
             </div>
 
