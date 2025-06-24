@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -21,14 +20,13 @@ const HeroSection = () => {
               
               {/* Glossy Name Below Profile Picture */}
               <div className="text-center">
-                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent relative">
-                  <span className="relative inline-block">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground relative mb-2">
+                  <span className="relative inline-block bg-gradient-to-r from-slate-900 via-slate-600 to-slate-900 bg-clip-text text-transparent">
                     Nithish Purushothaman
-                    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-white/40 to-white/20 bg-clip-text text-transparent transform -skew-x-12 opacity-60"></div>
-                    <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/30 to-transparent rounded-lg blur-sm"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-white/60 to-white/30 bg-clip-text text-transparent transform -skew-x-6 opacity-40"></div>
                   </span>
                 </h2>
-                <div className="mt-2 h-1 w-32 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
+                <div className="h-0.5 w-24 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
               </div>
             </div>
 
